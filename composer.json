@@ -125,6 +125,18 @@
           "type": "tar"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "library/underscore",
+        "version": "1.8.3",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/jashkenas/underscore/archive/1.8.3.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "require": {
@@ -280,6 +292,7 @@
     "library/ckeditor": "4.5.9",
     "library/modernizr": "2.8.3",
     "library/swiftmailer" : "5.4.9",
+    "library/underscore": "1.8.3",
     "profile/govcms": "2.16"
   },
   "config": {
