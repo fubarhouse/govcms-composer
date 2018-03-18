@@ -23,7 +23,7 @@
       "package": {
         "name": "library/backbone",
         "version": "1.3.3",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/jashkenas/backbone/archive/1.3.3.zip",
           "type": "zip"
@@ -35,7 +35,7 @@
       "package": {
         "name": "library/chosen",
         "version": "1.8.2",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.2/chosen_v1.8.2.zip",
           "type": "zip"
@@ -47,7 +47,7 @@
       "package": {
         "name": "library/superfish",
         "version": "1",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip",
           "type": "zip"
@@ -59,7 +59,7 @@
       "package": {
         "name": "library/html5placeholder",
         "version": "2.3.1",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/mathiasbynens/jquery-placeholder/archive/v2.3.1.zip",
           "type": "zip"
@@ -71,7 +71,7 @@
       "package": {
         "name": "library/ckeditor",
         "version": "4.5.9",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.9/ckeditor_4.5.9_full.zip",
           "type": "zip"
@@ -83,7 +83,7 @@
       "package": {
         "name": "library/backbone",
         "version": "1.8.3",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/jashkenas/underscore/archive/1.8.3.zip",
           "type": "zip"
@@ -95,7 +95,7 @@
       "package": {
         "name": "library/modernizr",
         "version": "2.8.3",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/Modernizr/Modernizr/archive/v2.8.3.tar.gz",
           "type": "tar"
@@ -107,7 +107,7 @@
       "package": {
         "name": "library/performx",
         "version": "1.0.1",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://download.ckeditor.com/performx/releases/performx_1.0.1.zip",
           "type": "zip"
@@ -119,7 +119,7 @@
       "package": {
         "name": "library/swiftmailer",
         "version": "5.4.9",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/swiftmailer/swiftmailer/archive/v5.4.9.tar.gz",
           "type": "tar"
@@ -131,7 +131,7 @@
       "package": {
         "name": "library/underscore",
         "version": "1.8.3",
-        "type": "govcms-library",
+        "type": "drupal-library",
         "dist": {
           "url": "https://github.com/jashkenas/underscore/archive/1.8.3.zip",
           "type": "zip"
@@ -143,82 +143,82 @@
     "davidbarratt/custom-installer": "dev-master",
     "drupal-composer/preserve-paths": "0.1.*",
     "cweagans/composer-patches": "~1.0",
-    "drupal/accessible_forms": "1.0-alpha2",
+    "drupal/accessible_forms": "1.0-alpha1",
     "drupal/acquia_connector": "3.2",
-    "drupal/views_bulk_operations": "3.4",
-    "drupal/addressfield": "1.2",
+    "drupal/views_bulk_operations": "3.3",
+    "drupal/addressfield": "1.1",
     "drupal/admin_views": "1.6",
-    "drupal/agls": "1.0.0-beta3",
+    "drupal/agls": "1.0-beta3",
     "drupal/google_chart_tools": "1.4",
     "drupal/service_links": "2.3",
     "drupal/bean": "1.11",
     "drupal/bean_panels": "1.3",
     "drupal/better_exposed_filters": "3.5",
     "drupal/bigmenu": "1.3",
-    "drupal/breakpoints": "1.6",
+    "drupal/breakpoints": "1.3",
     "drupal/contextual-contextual": "2.0-alpha1",
     "drupal/ctools": "1.12",
-    "drupal/ccl": "1.6",
+    "drupal/ccl": "1.5",
     "drupal/chosen": "2.1",
     "drupal/clamav": "1.0",
     "drupal/node_clone": "1.0",
-    "drupal/context": "3.7",
-    "drupal/crumbs": "2.6",
+    "drupal/context": "3.6",
+    "drupal/crumbs": "2.3",
     "drupal/facetapi": "1.5",
-    "drupal/date": "2.10",
+    "drupal/date": "2.9",
     "drupal/defaultconfig": "1.0-alpha9",
     "drupal/defaultcontent": "2.x-dev",
-    "drupal/diff": "3.3",
+    "drupal/diff": "3.2",
     "drupal/draggableviews": "2.1",
     "drupal/drafty": "1.0-rc1",
-    "drupal/ds": "2.14",
-    "drupal/elements": "1.5",
+    "drupal/ds": "2.8",
+    "drupal/elements": "1.4",
     "drupal/entity": "1.9",
-    "drupal/entitycache": "1.5",
+    "drupal/entitycache": "1.2",
     "drupal/entityreference": "1.5",
     "drupal/escape_admin": "1.2",
     "drupal/event_log": "1.4",
-    "drupal/favicon": "2.1",
-    "drupal/features": "2.*",
-    "drupal/feeds": "2.0-beta4",
-    "drupal/feeds_tamper": "1.2",
-    "drupal/field_group": "1.6",
+    "drupal/favicon": "1.0-rc2",
+    "drupal/features": "2.9",
+    "drupal/feeds": "2.0-beta3",
+    "drupal/feeds_tamper": "1.1",
+    "drupal/field_group": "1.5",
     "drupal/field_redirection": "2.6",
-    "drupal/file_entity": "2.16",
+    "drupal/file_entity": "2.12",
     "drupal/file_lock": "2.0",
     "drupal/picture": "2.13",
     "drupal/flood_control": "1.0",
-    "drupal/focal_point": "1.1",
+    "drupal/focal_point": "1.0-beta4",
     "drupal/funnelback": "1.0-beta3",
-    "drupal/globalredirect": "1.6",
+    "drupal/globalredirect": "1.5",
     "drupal/google_analytics_reports": "3.1",
     "drupal/google_analytics": "2.4",
     "drupal/govcms_ckan": "1.3",
     "drupal/govcms_dlm": "1.0",
     "drupal/gss": "1.11",
-    "drupal/hierarchical_select": "3.0-beta8",
-    "drupal/honeypot": "1.24",
+    "drupal/hierarchical_select": "3.0-beta7",
+    "drupal/honeypot": "1.22",
     "drupal/panels": "3.9",
-    "drupal/image_link_formatter": "1.1",
-    "drupal/job_scheduler": "2.0",
+    "drupal/image_link_formatter": "1.0",
+    "drupal/job_scheduler": "2.0-alpha3",
     "drupal/libraries": "2.3",
-    "drupal/link": "1.4",
+    "drupal/link": "1.3",
     "drupal/linkchecker": "1.2",
     "drupal/linkit": "3.5",
     "drupal/linkit_panel_pages": "2.0",
-    "drupal/login_destination": "1.4",
+    "drupal/login_destination": "1.1",
     "drupal/login_security": "1.9",
     "drupal/mailsystem": "2.34",
     "drupal/maintenance_mode_permissions": "1.0",
-    "drupal/media": "2.16",
+    "drupal/media": "2.13",
     "drupal/media_oembed": "2.7",
     "drupal/menu_attributes": "1.0",
-    "drupal/menu_block": "2.7",
+    "drupal/menu_block": "2.6",
     "drupal/menu_trail_by_path": "3.3",
     "drupal/metatag": "1.21",
     "drupal/mimemail": "1.0",
-    "drupal/minisite": "1.0-alpha3",
-    "drupal/module_filter": "2.1",
+    "drupal/minisite": "1.0-alpha2",
+    "drupal/module_filter": "2.0",
     "drupal/module_permissions": "1.3",
     "drupal/mpac": "1.2",
     "drupal/navbar": "1.7",
@@ -226,65 +226,65 @@
     "drupal/openaccess": "1.0",
     "drupal/paragraphs": "1.0-rc5",
     "drupal/paranoia": "1.7",
-    "drupal/password_policy": "1.15",
+    "drupal/password_policy": "1.14",
     "drupal/pathauto": "1.3",
     "drupal/pathauto_persist": "1.4",
     "drupal/pathologic": "3.1",
     "drupal/pci_update": "1.0",
     "drupal/phone": "1.0-beta1",
     "drupal/pollanon": "1.1",
-    "drupal/quicktabs": "3.8",
+    "drupal/quicktabs": "3.6",
     "drupal/r4032login": "1.8",
     "drupal/redirect": "1.0-rc1",
     "drupal/services": "3.20",
-    "drupal/robotstxt": "1.4",
+    "drupal/robotstxt": "1.3",
     "drupal/role_delegation": "1.1",
-    "drupal/rules": "2.10",
+    "drupal/rules": "2.9",
     "drupal/scheduler": "1.5",
     "drupal/scheduler_workbench": "1.3",
     "drupal/search404": "1.6",
     "drupal/search_api": "1.22",
-    "drupal/search_api_acquia": "2.4",
+    "drupal/search_api_acquia": "2.3",
     "drupal/search_api_db": "1.6",
     "drupal/search_api_page": "1.4",
     "drupal/search_api_solr": "1.12",
     "drupal/seckit": "1.9",
-    "drupal/services_views": "1.3",
+    "drupal/services_views": "1.2",
     "drupal/session_cookie_lifetime": "1.3",
     "drupal/shield": "1.3",
     "drupal/simple_aggregation": "1.0",
     "drupal/site_map": "1.2",
-    "drupal/spamspan": "1.3",
+    "drupal/spamspan": "1.x-dev#cebf9dd3a360b466b498755fe800580e6b215646",
     "drupal/strongarm": "2.0",
     "drupal/superfish": "1.9",
     "drupal/swiftmailer": "1.7",
-    "drupal/toc_filter": "1.3",
-    "drupal/token": "1.7",
-    "drupal/token_tweaks": "1.x-dev",
+    "drupal/toc_filter": "1.2",
+    "drupal/token": "1.6",
+    "drupal/token_tweaks": "1.x-dev#75818fbfb97bf8882ca106e6af703be7644b11bb",
     "drupal/transliteration": "3.2",
     "drupal/twitter_block": "2.3",
-    "drupal/username_enumeration_prevention": "1.2",
+    "drupal/username_enumeration_prevention": "1.0",
     "drupal/userprotect": "1.2",
     "drupal/uuid": "1.0",
     "drupal/uuid_features": "1.0-rc1",
-    "drupal/video_filter": "3.4",
+    "drupal/video_filter": "3.3",
     "drupal/view_unpublished": "1.2",
-    "drupal/viewfield": "2.1",
-    "drupal/views": "3.18",
+    "drupal/viewfield": "2.0",
+    "drupal/views": "3.17",
     "drupal/views_datasource": "1.0-alpha2",
     "drupal/webform": "4.16",
     "drupal/webform_clear": "2.0",
     "drupal/webform_html_textarea": "1.4",
-    "drupal/webform_phone": "1.23",
+    "drupal/webform_phone": "1.21",
     "drupal/workbench": "1.2",
-    "drupal/workbench_access": "1.5",
+    "drupal/workbench_access": "1.4",
     "drupal/workbench_moderation": "1.4",
-    "drupal/wysiwyg": "2.4",
+    "drupal/wysiwyg": "2.x-dev#4efd47771a7fce77eb0364c747e3c76a6a65c460",
     "drupal/wysiwyg_abbr": "1.0",
-    "drupal/wysiwyg_filter": "1.6-rc9",
+    "drupal/wysiwyg_filter": "1.6-rc2",
     "drupal/xmlsitemap": "2.3",
     "drupal/shiny": "1.7",
-    "drupal/zen": "5.6",
+    "drupal/zen": "5.5",
     "library/backbone": "1.3.3",
     "library/chosen": "1.8.2",
     "library/superfish": "1",
@@ -305,7 +305,6 @@
       "docroot/profiles/govcms/themes/contrib/{$name}/": ["type:drupal-theme"],
       "docroot/profiles/govcms/themes/custom/{$name}/": ["type:drupal-theme-custom"],
       "docroot/profiles/govcms/libraries/{$name}/": ["type:drupal-library"],
-      "docroot/profiles/govcms/libraries/{$name}/": ["type:govcms-library"],
       "docroot/profiles/govcms/drush/{$name}/": ["type:drupal-drush"],
       "docroot/profiles/{$name}/": ["type:drupal-profile"],
       "docroot/": ["type:drupal-core"]
@@ -318,6 +317,7 @@
       "docroot/profiles/govcms/themes/custom",
       "docroot/profiles/govcms/libraries",
       "docroot/profiles/govcms/drush",
+      "docroot/profiles/govcms",
       "docroot/sites/default/settings.php",
       "docroot/sites/default/files",
       "docroot/sites/sites.php"
@@ -326,13 +326,11 @@
       "drupal/ctools": {
         "0": "https://www.drupal.org/files/issues/ctools-2828620-60-View-pane-rendering-misuses-cache-revert-1910608.patch"
       },
-      "drupal/defaultconfig": {
-        "0": "https://drupal.org/files/1940366-1-illegal-offset-warning.patch"
-      },
       "drupal/defaultcontent": {
-        "0": "https://drupal.org/files/1611928-fix-alt.patch",
-        "1": "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch",
-        "2": "https://drupal.org/files/1896232-defaultcontent-nid.patch"
+        "0": "https://drupal.org/files/1940366-1-illegal-offset-warning.patch",
+        "1": "https://drupal.org/files/1611928-fix-alt.patch",
+        "2": "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch",
+        "3": "https://drupal.org/files/1896232-defaultcontent-nid.patch"
       },
       "drupal/entityreference": {
         "0": "https://www.drupal.org/files/issues/url_formatter-2370029-2-7.x-1.5.patch"
@@ -388,10 +386,10 @@
       "drupal/workbench_moderation": {
         "0": "https://www.drupal.org/files/issues/workbench_moderation-pathauto.patch"
       },
-      "libraries/underscore": {
+      "library/underscore": {
         "0": "https://www.drupal.org/files/issues/2235299-12.patch"
       },
-      "libraries/backbone": {
+      "library/backbone": {
         "0": "https://www.drupal.org/files/issues/2235299-11.patch"
       }
     }
