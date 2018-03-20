@@ -156,7 +156,6 @@
     "drupal/better_exposed_filters": "3.5",
     "drupal/bigmenu": "1.3",
     "drupal/breakpoints": "1.3",
-    "drupal/contextual-contextual": "2.0-alpha1",
     "drupal/ctools": "1.12",
     "drupal/ccl": "1.5",
     "drupal/chosen": "2.1",
@@ -167,7 +166,7 @@
     "drupal/facetapi": "1.5",
     "drupal/date": "2.9",
     "drupal/defaultconfig": "1.0-alpha9",
-    "drupal/defaultcontent": "2.x-dev",
+    "drupal/defaultcontent": "1.x-dev",
     "drupal/diff": "3.2",
     "drupal/draggableviews": "2.1",
     "drupal/drafty": "1.0-rc1",
@@ -270,7 +269,6 @@
     "drupal/video_filter": "3.3",
     "drupal/view_unpublished": "1.2",
     "drupal/viewfield": "2.0",
-    "drupal/views": "3.17",
     "drupal/views_datasource": "1.0-alpha2",
     "drupal/webform": "4.16",
     "drupal/webform_clear": "2.0",
@@ -293,7 +291,9 @@
     "library/modernizr": "2.8.3",
     "library/swiftmailer" : "5.4.9",
     "library/underscore": "1.8.3",
-    "profile/govcms": "2.16"
+    "profile/govcms": "2.16",
+    "drupal/views": "3.17",
+    "drush/drush": "8.1.16"
   },
   "config": {
     "vendor-dir": "vendor"
@@ -323,6 +323,11 @@
       "docroot/sites/sites.php"
     ],
     "patches": {
+      "drupal/drupal": {
+        "0": "https://www.drupal.org/files/issues/drupal-7.x-allow_profile_change_sys_req-1772316-28.patch",
+        "1": "https://www.drupal.org/files/issues/drupal-1470656-26.patch",
+        "2": "https://www.drupal.org/files/issues/core-111702-99-use_replyto.patch"
+      },
       "drupal/ctools": {
         "0": "https://www.drupal.org/files/issues/ctools-2828620-60-View-pane-rendering-misuses-cache-revert-1910608.patch"
       },
@@ -346,6 +351,9 @@
       },
       "drupal/honeypot": {
         "0": "https://www.drupal.org/files/issues/form_not_protected_if_machinename_wrapping_specific_word-2912575-3.patch"
+      },
+      "drupal/libraries": {
+        "0": "https://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch"
       },
       "drupal/linkchecker": {
         "0": "https://www.drupal.org/files/issues/linkchecker-views-integration-965720-112.patch"
