@@ -10,10 +10,10 @@
       "type": "package",
       "package": {
         "name": "profile/govcms",
-        "version": "2.16",
+        "version": "2.17",
         "type": "drupal-profile",
         "dist": {
-          "url": "https://github.com/govCMS/govCMS/archive/7.x-2.16.zip",
+          "url": "https://github.com/govCMS/govCMS/archive/7.x-2.17.zip",
           "type": "zip"
         }
       }
@@ -140,7 +140,7 @@
     }
   ],
   "require": {
-    "davidbarratt/custom-installer": "dev-master",
+    "composer/installers": "^1.5",
     "drupal-composer/preserve-paths": "0.1.*",
     "cweagans/composer-patches": "~1.0",
     "drupal/accessible_forms": "1.0-alpha1",
@@ -291,7 +291,7 @@
     "library/modernizr": "2.8.3",
     "library/swiftmailer" : "5.4.9",
     "library/underscore": "1.8.3",
-    "profile/govcms": "2.16",
+    "profile/govcms": "2.17",
     "drupal/views": "3.17",
     "drush/drush": "8.1.16"
   },
@@ -299,27 +299,21 @@
     "vendor-dir": "vendor"
   },
   "extra": {
-    "custom-installer": {
+    "installer-paths": {
       "docroot/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
-      "docroot/sites/all/modules/custom/{$name}/": ["type:drupal-module-custom"],
       "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
-      "docroot/sites/all/themes/custom/{$name}/": ["type:drupal-theme-custom"],
       "docroot/sites/all/libraries/{$name}/": ["type:drupal-library"],
-      "docroot/sites/all/drush/{$name}/": ["type:drupal-drush"],
       "docroot/profiles/{$name}/": ["type:drupal-profile"],
       "docroot/": ["type:drupal-core"]
     },
     "preserve-paths": [
       "docroot/sites/all/modules/contrib",
-      "docroot/sites/all/modules/custom",
       "docroot/sites/all/modules/features",
       "docroot/sites/all/themes/contrib",
-      "docroot/sites/all/themes/custom",
       "docroot/sites/all/libraries",
-      "docroot/sites/all/drush",
-      "docroot/profiles/govcms",
       "docroot/sites/default/settings.php",
       "docroot/sites/default/files",
+
       "docroot/sites/sites.php"
     ],
     "patches": {
@@ -332,10 +326,9 @@
         "0": "https://www.drupal.org/files/issues/ctools-2828620-60-View-pane-rendering-misuses-cache-revert-1910608.patch"
       },
       "drupal/defaultcontent": {
-        "0": "https://drupal.org/files/1940366-1-illegal-offset-warning.patch",
-        "1": "https://drupal.org/files/1611928-fix-alt.patch",
-        "2": "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch",
-        "3": "https://drupal.org/files/1896232-defaultcontent-nid.patch"
+        "0": "https://drupal.org/files/1611928-fix-alt.patch",
+        "1": "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch",
+        "2": "https://drupal.org/files/1896232-defaultcontent-nid.patch"
       },
       "drupal/entityreference": {
         "0": "https://www.drupal.org/files/issues/url_formatter-2370029-2-7.x-1.5.patch"
