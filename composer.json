@@ -7,6 +7,10 @@
       "url": "https://packages.drupal.org/7/"
     },
     {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    },
+    {
       "type": "package",
       "package": {
         "name": "profile/govcms",
@@ -301,7 +305,7 @@
     "installer-paths": {
       "docroot/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
       "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
-      "docroot/sites/all/libraries/{$name}/": ["type:drupal-library"],
+      "docroot/sites/all/libraries/{$name}/": ["type:drupal-library", "type:bower-asset", "type:npm-asset"],
       "docroot/profiles/{$name}/": ["type:drupal-profile"],
       "docroot/": ["type:drupal-core"]
     },
