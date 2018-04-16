@@ -85,18 +85,6 @@
     {
       "type": "package",
       "package": {
-        "name": "library/backbone",
-        "version": "1.8.3",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/jashkenas/underscore/archive/1.8.3.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "library/modernizr",
         "version": "2.8.3",
         "type": "drupal-library",
