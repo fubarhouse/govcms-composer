@@ -25,30 +25,6 @@
     {
       "type": "package",
       "package": {
-        "name": "library/backbone",
-        "version": "1.3.3",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/jashkenas/backbone/archive/1.3.3.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "library/chosen",
-        "version": "1.8.2",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.2/chosen_v1.8.2.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "library/superfish",
         "version": "1",
         "type": "drupal-library",
@@ -73,30 +49,6 @@
     {
       "type": "package",
       "package": {
-        "name": "library/ckeditor",
-        "version": "4.5.9",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.9/ckeditor_4.5.9_full.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "library/modernizr",
-        "version": "2.8.3",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/Modernizr/Modernizr/archive/v2.8.3.tar.gz",
-          "type": "tar"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "library/performx",
         "version": "1.0.1",
         "type": "drupal-library",
@@ -115,18 +67,6 @@
         "dist": {
           "url": "https://github.com/swiftmailer/swiftmailer/archive/v5.4.9.tar.gz",
           "type": "tar"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "library/underscore",
-        "version": "1.8.3",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/jashkenas/underscore/archive/1.8.3.zip",
-          "type": "zip"
         }
       }
     }
@@ -274,14 +214,14 @@
     "drupal/xmlsitemap": "2.3",
     "drupal/shiny": "1.7",
     "drupal/zen": "5.5",
-    "library/backbone": "1.3.3",
-    "library/chosen": "1.8.2",
+    "npm-asset/backbone": "1.3.3",
+    "bower-asset/chosen": "1.8.2",
     "library/superfish": "1",
     "library/html5placeholder": "2.3.1",
-    "library/ckeditor": "4.5.9",
-    "library/modernizr": "2.8.3",
+    "npm-asset/ckeditor": "4.5.9",
+    "npm-asset/modernizr": "2.8.3",
     "library/swiftmailer" : "5.4.9",
-    "library/underscore": "1.8.3",
+    "npm-asset/underscore": "1.8.3",
     "profile/govcms": "2.17",
     "drupal/views": "3.17",
     "drush/drush": "8.1.16"
@@ -379,10 +319,10 @@
       "drupal/workbench_moderation": {
         "0": "https://www.drupal.org/files/issues/workbench_moderation-pathauto.patch"
       },
-      "library/underscore": {
+      "npm-asset/underscore": {
         "0": "https://www.drupal.org/files/issues/2235299-12.patch"
       },
-      "library/backbone": {
+      "npm-asset/backbone": {
         "0": "https://www.drupal.org/files/issues/2235299-11.patch"
       }
     }
