@@ -41,4 +41,4 @@ MIT
 
 ## Author information
 
-This project was created in 2018 by [Karl Hepworth](twitter.com/fubarhouse).
+This project was created in 2018 by [Karl Hepworth](https://twitter.com/fubarhouse).
