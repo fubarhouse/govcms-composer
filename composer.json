@@ -290,6 +290,7 @@
     "vendor-dir": "vendor"
   },
   "extra": {
+    "installer-types": ["bower-asset", "npm-asset"],
     "installer-paths": {
       "docroot/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
       "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
