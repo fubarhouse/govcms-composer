@@ -132,7 +132,7 @@
     }
   ],
   "require": {
-    "composer/installers": "^1.5",
+    "oomphinc/composer-installers-extender": "1.1.2",
     "drupal-composer/preserve-paths": "0.1.*",
     "cweagans/composer-patches": "~1.0",
     "drupal/accessible_forms": "1.0-alpha1",
