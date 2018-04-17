@@ -201,7 +201,11 @@
       "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
       "docroot/sites/all/libraries/{$name}/": ["type:drupal-library", "type:bower-asset", "type:npm-asset"],
       "docroot/profiles/{$name}/": ["type:drupal-profile"],
-      "docroot/": ["type:drupal-core"]
+      "docroot/": ["type:drupal-core"],
+
+      "docroot/sites/all/libraries/html5placeholder": ["mathiasbynens/jquery-placeholder"],
+      "docroot/sites/all/libraries/superfish": ["mehrpadin/superfish"],
+      "docroot/sites/all/libraries/swiftmailer": ["swiftmailer/swiftmailer"]
     },
     "preserve-paths": [
       "docroot/sites/all/modules/contrib",
