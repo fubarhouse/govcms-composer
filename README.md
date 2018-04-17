@@ -3,11 +3,9 @@
 
 ## Disclaimer
 
-````
-This repository is not the property of any government agency, and has no official affiliation with any government agenciy. This repository consists simply of just a Drupal composer file which assembles a codebase which would otherwise be identifiable as the govCMS software-as-a-service distribution.
+This repository is not the property of any government agency, and has no official affiliation with any government agency. This repository consists simply of just a Drupal composer file which assembles a codebase which would otherwise be identifiable as the govCMS software-as-a-service distribution.
 
 This repository is privately and independently created, managed and maintained by the author (@fubarhouse).
-````
 
 ## Introduction
 
