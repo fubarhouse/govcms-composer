@@ -19,7 +19,7 @@ This repository is privately and independently created, managed and maintained b
 
 I wasn't happy with the struggles of producing a copy of the distribution for use on a local system where I can produce very complex work consistently and to best practice elsewhere.
 
-Creating a `composer.json` file for this distribution would allow seamless build processes between any other Drupal site, be it local builds or remote mnagement. This requirement being it needed to work and replicate the distribution including the installation profile.
+Creating a `composer.json` file for this distribution would allow seamless build processes between any other Drupal site, be it local builds or remote management. This requirement being it needed to work and replicate the distribution including the installation profile.
 
 ## Getting started
 
