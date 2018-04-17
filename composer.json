@@ -25,18 +25,6 @@
     {
       "type": "package",
       "package": {
-        "name": "library/html5placeholder",
-        "version": "2.3.1",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/mathiasbynens/jquery-placeholder/archive/v2.3.1.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "library/performx",
         "version": "1.0.1",
         "type": "drupal-library",
@@ -193,7 +181,7 @@
     "drupal/zen": "5.5",
     "npm-asset/backbone": "1.3.3",
     "bower-asset/chosen": "1.8.2",
-    "library/html5placeholder": "2.3.1",
+    "mathiasbynens/jquery-placeholder": "2.3.1",
     "mehrpadin/superfish": "1.x-dev",
     "npm-asset/ckeditor": "4.5.9",
     "npm-asset/modernizr": "2.8.3",
