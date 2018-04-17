@@ -25,18 +25,6 @@
     {
       "type": "package",
       "package": {
-        "name": "library/superfish",
-        "version": "1",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip",
-          "type": "zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "library/html5placeholder",
         "version": "2.3.1",
         "type": "drupal-library",
@@ -217,8 +205,8 @@
     "drupal/zen": "5.5",
     "npm-asset/backbone": "1.3.3",
     "bower-asset/chosen": "1.8.2",
-    "library/superfish": "1",
     "library/html5placeholder": "2.3.1",
+    "mehrpadin/superfish": "1.x-dev",
     "npm-asset/ckeditor": "4.5.9",
     "npm-asset/modernizr": "2.8.3",
     "library/swiftmailer" : "5.4.9",
