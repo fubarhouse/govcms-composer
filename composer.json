@@ -45,18 +45,6 @@
           "type": "zip"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "library/swiftmailer",
-        "version": "5.4.9",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/swiftmailer/swiftmailer/archive/v5.4.9.tar.gz",
-          "type": "tar"
-        }
-      }
     }
   ],
   "require": {
@@ -209,7 +197,7 @@
     "mehrpadin/superfish": "1.x-dev",
     "npm-asset/ckeditor": "4.5.9",
     "npm-asset/modernizr": "2.8.3",
-    "library/swiftmailer" : "5.4.9",
+    "swiftmailer/swiftmailer" : "5.4.9",
     "npm-asset/underscore": "1.8.3",
     "profile/govcms": "2.17",
     "drupal/views": "3.17",
