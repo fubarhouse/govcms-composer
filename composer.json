@@ -1,5 +1,5 @@
 {
-  "name": "govcms/saas",
+  "name": "drubuild/site-build",
   "description": "Drupal 7",
   "repositories": [
     {
@@ -160,6 +160,7 @@
   },
   "extra": {
     "installer-paths": {
+
       "docroot/": ["drupal/govcms", "type:drupal-core"],
       "docroot/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
       "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
