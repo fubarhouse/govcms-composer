@@ -10,7 +10,14 @@ This repository is privately and independently created, managed and maintained b
 ## Introduction
 
 * This is a working composer version of the govCMS Drupal 7 distribution.
+* This repository aims to replicate the govCMS Drupal 7 distribution as closely as possible, however it is not guarenteed to provide exactly that. Close enough and working is enough to satisfy this requirement.
 * This repository which aims to be self-contained in **nothing more** than a single composer.json file.
+
+## Why create another thing?
+
+I wasn't happy with the struggles of producing a copy of the distribution for use on a local system where I can produce very complex work consistently and to best practice elsewhere.
+
+Creating a `composer.json` file for this distribution would allow seamless build processes between any other Drupal site, be it local builds or remote management. This requirement being it needed to work and replicate the distribution including the installation profile.
 
 ## Getting started
 
