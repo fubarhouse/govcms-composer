@@ -40,6 +40,7 @@
     "mnsami/composer-custom-directory-installer": "1.1.*",
     "drupal-composer/preserve-paths": "0.1.*",
     "cweagans/composer-patches": "~1.0",
+    "drupal/drupal": "7.59",
     "drupal/accessible_forms": "1.0-alpha1",
     "drupal/acquia_connector": "3.2",
     "drupal/views_bulk_operations": "3.3",
