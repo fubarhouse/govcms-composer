@@ -154,6 +154,7 @@
     "drupal/strongarm": "2.0",
     "drupal/superfish": "1.9",
     "drupal/swiftmailer": "1.7",
+    "drupal/taxonomy_manager": "1.0",
     "drupal/toc_filter": "1.2",
     "drupal/token": "1.6",
     "drupal/token_tweaks": "1.x-dev#75818fbfb97bf8882ca106e6af703be7644b11bb",
