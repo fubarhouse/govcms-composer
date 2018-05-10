@@ -109,7 +109,7 @@
     "drupal/media": "2.19",
     "drupal/media_oembed": "2.7",
     "drupal/menu_attributes": "1.0",
-    "drupal/menu_block": "2.6",
+    "drupal/menu_block": "2.7.0",
     "drupal/menu_trail_by_path": "3.3",
     "drupal/metatag": "1.21",
     "drupal/mimemail": "1.0",
