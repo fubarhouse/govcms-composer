@@ -60,7 +60,7 @@
     "drupal/clamav": "1.0",
     "drupal/node_clone": "1.0",
     "drupal/context": "3.6",
-    "drupal/crumbs": "2.3",
+    "drupal/crumbs": "2.6.0",
     "drupal/facetapi": "1.5",
     "drupal/date": "2.9",
     "drupal/defaultconfig": "1.0-alpha9",
