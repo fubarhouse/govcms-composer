@@ -70,7 +70,7 @@
     "drupal/ds": "2.15",
     "drupal/elements": "1.4",
     "drupal/entity": "1.9",
-    "drupal/entitycache": "1.2",
+    "drupal/entitycache": "1.5.0",
     "drupal/entityreference": "1.5",
     "drupal/escape_admin": "1.2",
     "drupal/event_log": "1.4",
