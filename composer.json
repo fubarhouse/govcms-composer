@@ -44,7 +44,7 @@
     "drupal/accessible_forms": "1.0-alpha1",
     "drupal/acquia_connector": "3.2",
     "drupal/views_bulk_operations": "3.3",
-    "drupal/addressfield": "1.1",
+    "drupal/addressfield": "1.2.0",
     "drupal/admin_views": "1.6",
     "drupal/agls": "1.0-beta3",
     "drupal/google_chart_tools": "1.4",
