@@ -84,7 +84,7 @@
     "drupal/file_lock": "2.0",
     "drupal/picture": "2.13",
     "drupal/flood_control": "1.0",
-    "drupal/focal_point": "1.0-beta4",
+    "drupal/focal_point": "1.2.0",
     "drupal/funnelback": "1.0-beta3",
     "drupal/globalredirect": "1.5",
     "drupal/google_analytics_reports": "3.1",
