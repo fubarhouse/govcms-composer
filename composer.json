@@ -152,7 +152,7 @@
     "drupal/site_map": "1.2",
     "drupal/spamspan": "1.x-dev#cebf9dd3a360b466b498755fe800580e6b215646",
     "drupal/strongarm": "2.0",
-    "drupal/superfish": "1.9",
+    "drupal/superfish": "2.0.0",
     "drupal/swiftmailer": "1.7",
     "drupal/taxonomy_manager": "1.0",
     "drupal/toc_filter": "1.2",
