@@ -10,7 +10,7 @@
   "require": {
     "oomphinc/composer-installers-extender": "1.1.2",
     "mnsami/composer-custom-directory-installer": "1.1.*",
-    "drupal/govcms": "2.17",
+    "drupal/govcms": "2.28",
     "drupal-composer/preserve-paths": "0.1.*",
     "drush/drush": "8.1.16"
   },
