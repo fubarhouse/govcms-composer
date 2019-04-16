@@ -191,7 +191,7 @@
     "npm-asset/underscore": "1.8.3",
     "profile/govcms": "2.28",
     "drupal/views": "3.17",
-    "drush/drush": "8.1.16"
+    "drush/drush": "9.6.2"
   },
   "config": {
     "vendor-dir": "vendor"
