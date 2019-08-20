@@ -168,7 +168,7 @@
     "drupal/view_unpublished": "1.2",
     "drupal/viewfield": "2.0",
     "drupal/views_datasource": "1.0-alpha2",
-    "drupal/webform": "4.16",
+    "drupal/webform": "4.20.0",
     "drupal/webform_clear": "2.0",
     "drupal/webform_html_textarea": "1.4",
     "drupal/webform_phone": "1.21",
